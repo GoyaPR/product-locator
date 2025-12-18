@@ -1,4 +1,207 @@
 [
+    {
+    "title": "YUCA EN TROZOS",
+    "weight": "18 oz.",
+    "slug": "9048",
+    "link": "/productos/9048",
+    "type": "product"
+  },
+  {
+    "title": "ÑAME",
+    "weight": "24 oz.",
+    "slug": "9054",
+    "link": "/productos/9054",
+    "type": "product"
+  },
+  {
+    "title": "VIANDA/SANCOCHO",
+    "weight": "32 oz.",
+    "slug": "9053",
+    "link": "/productos/9053",
+    "type": "product"
+  },
+  {
+    "title": "GANDULES VERDES",
+    "weight": "14 oz.",
+    "slug": "9050",
+    "link": "/productos/9050",
+    "type": "product"
+  },
+  {
+    "title": "RELLENOS DE PAPA",
+    "weight": "16 oz.",
+    "slug": "9040",
+    "link": "/productos/9040",
+    "type": "product"
+  },
+  {
+    "title": "YUCA",
+    "weight": "5 lb.",
+    "slug": "9051",
+    "link": "/productos/9051",
+    "type": "product"
+  },
+  {
+    "title": "MAÍZ MINI",
+    "weight": "8 mazorca",
+    "slug": "9059",
+    "link": "/productos/9059",
+    "type": "product"
+  },
+  {
+    "title": "MAÍZ GRANDE",
+    "weight": "4 mazorca",
+    "slug": "9058",
+    "link": "/productos/9058",
+    "type": "product"
+  },
+  {
+    "title": "RECAÍTO",
+    "weight": "14 oz.",
+    "slug": "9056",
+    "link": "/productos/9056",
+    "type": "product"
+  },
+  {
+    "title": "YAUTÍA",
+    "weight": "24 oz.",
+    "slug": "9049",
+    "link": "/productos/9049",
+    "type": "product"
+  },
+  {
+    "title": "MADUROS",
+    "weight": "11 oz.",
+    "slug": "9046",
+    "link": "/productos/9046",
+    "type": "product"
+  },
+  {
+    "title": "CROQUETAS DE JAMÓN",
+    "weight": "9.6 oz.",
+    "slug": "9068",
+    "link": "/productos/9068",
+    "type": "product"
+  },
+  {
+    "title": "CROQUETAS DE POLLO",
+    "weight": "9.6 oz.",
+    "slug": "9070",
+    "link": "/productos/9070",
+    "type": "product"
+  },
+  {
+    "title": "RALLADA",
+    "weight": "32 oz.",
+    "slug": "9094",
+    "link": "/productos/9094",
+    "type": "product"
+  },
+  {
+    "title": "BROCCOLI",
+    "weight": "16 oz.",
+    "slug": "9067",
+    "link": "/productos/9067",
+    "type": "product"
+  },
+  {
+    "title": "TAMALES",
+    "weight": "16 oz.",
+    "slug": "9066",
+    "link": "/productos/9066",
+    "type": "product"
+  },
+  {
+    "title": "MADUROS AL HORNO",
+    "weight": "11 oz.",
+    "slug": "9098",
+    "link": "/productos/9098",
+    "type": "product"
+  },
+  {
+    "title": "MAÍZ EN GRANO",
+    "weight": "16 oz.",
+    "slug": "9065",
+    "link": "/productos/9065",
+    "type": "product"
+  },
+  {
+    "title": "VEGETALES MIXTOS",
+    "weight": "16 oz.",
+    "slug": "9074",
+    "link": "/productos/9074",
+    "type": "product"
+  },
+  {
+    "title": "GUISANTES Y ZANAHORIAS",
+    "weight": "16 oz.",
+    "slug": "9129",
+    "link": "/productos/9129",
+    "type": "product"
+  },
+  {
+    "title": "MADUROS",
+    "weight": "24 oz.",
+    "slug": "9100",
+    "link": "/productos/9100",
+    "type": "product"
+  },
+  {
+    "title": "TOSTONES",
+    "weight": "12 oz.",
+    "slug": "9093",
+    "link": "/productos/9093",
+    "type": "product"
+  },
+  {
+    "title": "MAÍZ QUESO SALSITA",
+    "weight": "17 oz.",
+    "slug": "9109",
+    "link": "/productos/9109",
+    "type": "product"
+  },
+  {
+    "title": "PAPITAS DE YUCA",
+    "weight": "16 oz.",
+    "slug": "9135",
+    "link": "/productos/9135",
+    "type": "product"
+  },
+  {
+    "title": "TOSTONES",
+    "weight": "40 oz.",
+    "slug": "9102",
+    "link": "/productos/9102",
+    "type": "product"
+  },
+  {
+    "title": "GUISANTES DULCES",
+    "weight": "16 oz.",
+    "slug": "9131",
+    "link": "/productos/9131",
+    "type": "product"
+  },
+  {
+    "title": "CUT OKRA",
+    "weight": "16 oz.",
+    "slug": "9130",
+    "link": "/productos/9130",
+    "type": "product"
+  },
+  {
+    "title": "MADUROS",
+    "weight": "40 oz.",
+    "slug": "9101",
+    "link": "/productos/9101",
+    "type": "product"
+  },
+  {
+    "title": "TAQUITOS CARNE",
+    "weight": "25.5 oz.",
+    "slug": "9196",
+    "link": "/productos/9196",
+    "type": "product"
+  },
   {
     "title": "ACEITE OLIVA EXTRA VIRGEN",
     "weight": "3 OZ.",

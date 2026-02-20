@@ -8588,6 +8588,13 @@
     "link": "recetas/wrap-de-atun",
     "type": "recipe"
   },
+    {
+    "title": "Arroz Congrí",
+    "weight": "",
+    "slug": "arroz-congri",
+    "link": "recetas/arroz-congri",
+    "type": "recipe"
+  },
   {
     "title": "Yogurt de Chia, Guineo, Blueberry",
     "weight": "",

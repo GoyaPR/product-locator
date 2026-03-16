@@ -8595,6 +8595,20 @@
     "link": "recetas/arroz-congri",
     "type": "recipe"
   },
+       {
+    "title": "Hummus de Aguacate Goya",
+    "weight": "",
+    "slug": "hummus-de-aguacate-goya",
+    "link": "recetas/hummus-de-aguacate-goya",
+    "type": "recipe"
+  },
+       {
+    "title": "Bizcocho de calabaza Vegano con harina de Almendras",
+    "weight": "",
+    "slug": "bizcocho-de-calabaza-vegano-con-harina-de-almendras",
+    "link": "recetas/bizcocho-de-calabaza-vegano-con-harina-de-almendras",
+    "type": "recipe"
+  },
   {
     "title": "Yogurt de Chia, Guineo, Blueberry",
     "weight": "",

@@ -40,6 +40,30 @@ const getField = (fieldData, keys, fallback = '') => {
   return fallback;
 };
 
+const isImageUrl = (value) => {
+  if (typeof value !== 'string') return false;
+  return (
+    /\.(avif|gif|jpe?g|png|webp)(\?.*)?$/i.test(value) ||
+    value.includes('cdn.prod.website-files.com')
+  );
+};
+
+const getImageField = (fieldData, keys) => {
+  const configuredValue = getField(fieldData, keys);
+  if (configuredValue) return configuredValue;
+
+  for (const value of Object.values(fieldData ?? {})) {
+    if (typeof value === 'string' && isImageUrl(value)) return value.trim();
+    if (value?.url && isImageUrl(value.url)) return value.url;
+    if (Array.isArray(value)) {
+      const image = value.find((item) => item?.url && isImageUrl(item.url));
+      if (image?.url) return image.url;
+    }
+  }
+
+  return '';
+};
+
 const normalizeCmsItem = (item, config) => {
   const fieldData = item.fieldData ?? {};
   const slug = fieldData.slug || item.slug || item.id;
@@ -49,7 +73,7 @@ const normalizeCmsItem = (item, config) => {
     title: getField(fieldData, config.titleFields),
     slug,
     weight: getField(fieldData, config.weightFields ?? []),
-    image: getField(fieldData, config.imageFields),
+    image: getImageField(fieldData, config.imageFields),
   };
 };
 

@@ -1,0 +1,41 @@
+name: Sync Webflow search index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate search index
+        run: node scripts/sync-webflow-search-index.mjs
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+          WEBFLOW_RECIPES_COLLECTION_ID: ${{ vars.WEBFLOW_RECIPES_COLLECTION_ID }}
+          WEBFLOW_PRODUCTS_COLLECTION_ID: ${{ vars.WEBFLOW_PRODUCTS_COLLECTION_ID }}
+          SEARCH_INDEX_OUTPUT: data.json
+
+      - name: Commit search index changes
+        id: auto-commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Sync Webflow search index
+          file_pattern: data.json
+
+      - name: Purge jsDelivr cache
+        if: steps.auto-commit.outputs.changes_detected == 'true'
+        run: curl --fail --silent --show-error "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}/data.json"

@@ -28,6 +28,7 @@ jobs:
           WEBFLOW_RECIPES_COLLECTION_ID: ${{ vars.WEBFLOW_RECIPES_COLLECTION_ID }}
           WEBFLOW_PRODUCTS_COLLECTION_ID: ${{ vars.WEBFLOW_PRODUCTS_COLLECTION_ID }}
           SEARCH_INDEX_OUTPUT: data.json
+          WEBFLOW_PRODUCT_TITLE_FIELDS: ${{ vars.WEBFLOW_PRODUCT_TITLE_FIELDS }}
 
       - name: Commit search index changes
         id: auto-commit

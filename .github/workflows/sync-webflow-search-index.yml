@@ -29,6 +29,8 @@ jobs:
           WEBFLOW_PRODUCTS_COLLECTION_ID: ${{ vars.WEBFLOW_PRODUCTS_COLLECTION_ID }}
           SEARCH_INDEX_OUTPUT: data.json
           WEBFLOW_PRODUCT_TITLE_FIELDS: ${{ vars.WEBFLOW_PRODUCT_TITLE_FIELDS }}
+          WEBFLOW_PRODUCT_IMAGE_FIELDS: miniatura,imagen
+          WEBFLOW_RECIPE_IMAGE_FIELDS: miniatura,main-image,image
 
       - name: Commit search index changes
         id: auto-commit

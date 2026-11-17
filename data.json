@@ -2401,6 +2401,13 @@
     "image": "https://cdn.prod.website-files.com/688004862d90a599bd770af8/6aca66d6601536c1d000f0fb_6aca658e4004242e4d6549ac_receta-coquito-de-turron-mini.webp"
   },
   {
+    "type": "recipe",
+    "title": "Coquito GOYA",
+    "slug": "coquito-goya",
+    "weight": "",
+    "image": "https://cdn.prod.website-files.com/688004862d90a599bd770af8/6afc6ec549af0d8b6552b9bc_6afc6ea3f353d6f88fe31cc3_receta-coquito-goya-mini.webp"
+  },
+  {
     "type": "product",
     "title": "CORNED BEEF",
     "slug": "3361",

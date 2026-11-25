@@ -2611,6 +2611,13 @@
     "image": "https://cdn.prod.website-files.com/688004862d90a599bd770af8/6aca6699c95f0f1b2b5d5259_6aca65634efa950ffd82e4c3_receta-cupcakes-de-coco-mini.webp"
   },
   {
+    "type": "recipe",
+    "title": "Cupcakes de Coquito",
+    "slug": "cupcakes-de-coquito",
+    "weight": "",
+    "image": "https://cdn.prod.website-files.com/688004862d90a599bd770af8/6b071ef6dbab5353b415b21d_6b071ed30e54715fcf6cfe24_receta-cupcakes-de-coquito-mini.webp"
+  },
+  {
     "type": "product",
     "title": "Cut Okra",
     "slug": "9130",
